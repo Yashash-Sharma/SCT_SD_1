@@ -47,7 +47,8 @@ int main() {
     printf("Enter temperature: ");
     scanf("%f", &temperature);
 
-    switch (choice) {
+    switch (choice) 
+{
         case 1:
             result = celsiusToFahrenheit(temperature);
             printf("%.2f Celsius = %.2f Fahrenheit\n", temperature, result);
